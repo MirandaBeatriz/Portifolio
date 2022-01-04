@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+body{
+    background-color: #14082B; 
+    background-attachment: fixed;
+}
+
+main{
+    width: 1050px;
+    padding: 15px;
+    margin: 40px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 35px;
+}
