@@ -1,11 +1,13 @@
-import Hero from "./Hero/Hero";
 import About from "./About/About";
-import Skills from "./Skills/Skills";
+import Hero from "./Hero/Hero";
 import Historic from "./Historic/Historic";
+import NavBar from "./NavBar/NavBar";
+import Skills from "./Skills/Skills";
 
 export{
-    Hero,
     About,
+    Hero,
+    Historic,
+    NavBar,
     Skills,
-    Historic
 }
