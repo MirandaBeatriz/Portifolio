@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Ubuntu } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "@/sections";
 
-const inter = Inter({ subsets: ["latin"] });
+const ubuntu = Ubuntu({
+  weight: ['500','700'],
+  subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
   title: "Portifólio - Beatriz Miranda",
@@ -17,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={ubuntu.className}>
         <NavBar />
         {children}
       </body>

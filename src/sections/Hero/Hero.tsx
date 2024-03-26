@@ -2,6 +2,7 @@ import Image from "next/image";
 import Avatar from "@/assets/images/beatriz_miranda.png";
 import styles from "./Hero.module.scss"
 import { Container } from "@/components";
+import { NavBar } from "..";
 
 export default function Hero(){
     return (
